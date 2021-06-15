@@ -1,0 +1,74 @@
+﻿PID,POIs,Priority = 5,Priority = 4,Priority = 3,Priority = 2,Priority = 1
+POI1,AMBER PALACE,History and Culture,Museum,Local Experiences,Scenic,Adventure
+POI2,CITY PALACE JAIPUR,History and Culture,Museum,Local Experiences,Scenic,Food and Drinks
+POI3,JANTAR MANTAR JAIPUR,History and Culture,Museum,,,
+POI4,HAWA MAHAL,History and Culture,,Local Experiences,Scenic,
+POI5,ALBERT HALL MUSEUM (CENTRAL MUSEUM),Museum,History and Culture,Scenic,,
+POI6,NAHARGARH FORT,Museum,History and Culture,Scenic,Local Experiences,Food and Drinks
+POI7,BIRLA TEMPLE JAIPUR,Religious,Local Experiences,Scenic,,
+POI8,JAL MAHAL,History and Culture,Scenic,Local Experiences,Adventure,
+POI9,KING EDWARD MEMORIAL,History and Culture,Museum,Local Experiences,,Food and Drinks
+POI10,SISODIA RANI PALACE AND GARDEN,Scenic,History and Culture,,,
+POI11,VIDYADHAR GARDEN,Scenic,,Adventure,,Religious
+POI12,CENTRAL PARK JAIPUR INDIA,Scenic,,,Religious,
+POI13,ANOKHI MUSEUM OF HAND PRINTING,Museum,History and Culture,Scenic,,
+POI14,GOVIND DEVJI TEMPLE,Religious,Local Experiences,,,
+POI15,MOTI DOONGRI GANESH TEMPLE,Religious,Local Experiences,,,
+POI16,DIGAMBER JAIN MANDIR JAIPUR,Religious,Local Experiences,,,
+POI17,GALTAJI,Religious,History and Culture,Local Experiences,,
+POI18,STATUE CIRCLE,Scenic,,,History and Culture,
+POI19,RAM NIWAS GARDEN,Scenic,History and Culture,,,Food and Drinks
+POI20,ZOOLOGICAL GARDEN JAIPUR,Scenic,Adventure,,,Food and Drinks
+POI21,KANAK VRINDAVAN,Scenic,Adventure,,,Religious
+POI22,AMAR JAWAN JYOTI JAIPUR,History and Culture,Local Experiences,,Scenic,
+POI23,MAHARANI KI CHHATRI JAIPUR,History and Culture,,Local Experiences,,Religious
+POI24,NAHARGARH BIOLOGICAL PARK,Scenic,Adventure,,,
+POI25,JAWAHAR KALA KENDRA,Shows and Concerts,Local Experiences,,Scenic,
+POI26,RAJ MANDIR,Shows and Concerts,,History and Culture,,
+POI27,SAMBHAR LAKE,Scenic,Adventure,,,
+POI28,AKSHARDHAM TEMPLE JAIPUR,Religious,Local Experiences,,,
+POI29,JAGAT SHIROMANI TEMPLE,Religious,History and Culture,Scenic,,
+POI30,JAWAHAR CIRCLE,Scenic,,,Shopping,Food and Drinks
+POI31,MUSEUM OF GEM AND JEWELLERY,Museum,,Food and Drinks,History and Culture,
+POI32,JHALANA SAFARI PARK IN JAIPUR,Adventure,Scenic,,,
+POI33,MASALA CHOWK,Shopping,Food and Drinks,Scenic,,
+POI34,AMRAPALI MUSEUM,Museum,,Local Experiences,,
+POI35,MUSEUM OF LEGACIES JAIPUR INDIA,Museum,,Local Experiences,,
+POI36,CHOKHI DHANI,Local Experiences,Scenic,Food and Drinks,,
+POI37,ELEFANTASTIC ELEPHANT FARM,Adventure,Scenic,,,Religious
+POI38,PANNA MEENA KI BAOLI,Scenic,History and Culture,,,
+POI39,JOHARI BAZAAR,Food and Drinks,Shopping,,,Religious
+POI40,BAPU BAZAAR,Food and Drinks,Shopping,,,Religious
+POI41,WORLD TRADE PARK,Shopping,,,,
+POI42,GARH GANESH MANDIR,Religious,Scenic,Adventure,,
+POI43,MUKESH ART GALLERY,Museum,,Local Experiences,,
+POI44,ANGEL RESORT AND AMUSEMENT WATERPARK,Adventure,,,,
+POI45,B M BIRLA AUDITORIUM,Shows and Concerts,Local Experiences,,Scenic,
+POI46,"KHOLE KE HANUMAN JI TEMPLE, JAIPUR",Religious,Scenic,,,Adventure
+POI47,SKYFUT,Adventure,Shopping,,,
+POI48,GATORE KI CHHATRI JAIPUR,History and Culture,Scenic,,,
+POI49,RUSIRANI VILLAGE JAIPUR,Local Experiences,History and Culture,,Adventure,Scenic
+POI50,DEER PARK JAIPUR,Scenic,Adventure,,,
+POI51,RAMGARH LAKE,Scenic,Adventure,,,
+POI52,MUSEUM OF LEGACIES JAIPUR,Museum,,Local Experiences,,
+POI53,ST ANDREWS CHURCH JAIPUR,Religious,,,,
+POI54,JAMVA RAMGARH WILDLIFE SANCTUARY,Adventure,,Scenic,,
+POI55,JWALA MATA MANDIR JAIPUR,Religious,,,,
+POI56,JAMWAY MATA MANDIR,Religious,,,,
+POI57,LAXMI NARAYAN TEMPLE JAIPUR,Religious,Scenic,,,
+POI58,DARGAH BURHANUDDIN BABA JAIPUR,Religious,,,,Scenic
+POI59,KULISH SMIRITI VAN JAIPUR,Scenic,,,Adventure,Religious
+POI60,DHAMMA THALI VIPASSANA MEDITATION CENTRE,Religious,,,,Shopping
+POI61,CHANDLAI LAKE,Scenic,,Religious,,
+POI62,SHRI GOPINATH TEMPLE JAIPUR,Religious,,,,Scenic
+POI63,DOLLS MUSEUM,Museum,,,Local Experiences,Religious
+POI64,PEACOCK GARDEN JAIPUR,Scenic,,Shopping,,
+POI65,ELEMENTS MALL JAIPUR,Shopping,Shows and Concerts,,,
+POI66,CRYSTAL MALL JAIPUR,Shopping,,Shows and Concerts,,
+POI67,CentrAL PARK JAIPUR,Scenic,,,Religious,
+POI68,HANDICRAFT HAVELI JAIPUR,Local Experiences,,,,
+POI69,SUNRISE DREAM WORLD AMUSEMENT PARK,Adventure,,,,
+POI70,BRETHREN CHURCH JAIPUR,Religious,,,Shows and Concerts,
+POI71,MI ROAD,Shopping,Food and Drinks,,,
+POI72,BHANGARH,Adventure,Scenic,Religious,,
+POI73,SKY WALTZ BALLOON SAFARI,Adventure,Scenic,,,Local Experiences
