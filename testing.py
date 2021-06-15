@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 
 #importlib.import_module('FINAL')
-st.image('/Users/ishikajohari/Desktop/STUDIES/Ncert_books/Minor_Project/WorkWork/TravelRecom/images/Untitled design-2.png')
+st.image('/Users/ishikajohari/Desktop/STUDIES/Ncert_books/Minor_Project/WorkWork/TravelRecom/images/Untitled_design-2.png')
 
 st.title('Personalised Travel Recommender and Planner')
 
