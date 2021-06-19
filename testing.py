@@ -6,8 +6,7 @@ import streamlit.components.v1 as components
 
 #importlib.import_module('FINAL')
 st.image('./Images/Untitled_design-2.png')
-
-st.title('Personalised Travel Recommender and Planner')
+st.title('Personalised Travel Recommendation and Planner')
 
 pickle_in = open("lol.pkl","rb")
 load_lol=pickle.load(pickle_in)
