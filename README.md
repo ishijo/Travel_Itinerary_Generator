@@ -1,4 +1,7 @@
 # Personalised Travel Recommender & Planner
+#### **Key Points:**
+## Requirements
+## Webscraping and Dataset definitions
 
 ![cover_image](./Images/Untitled_design-2.png)
 
