@@ -1,6 +1,6 @@
 # Personalised Travel Recommender & Planner
-#### **Key Points:**
-## Requirements
+The current deployed version is being mended.
+
 ## Webscraping and Dataset definitions
 
 ![cover_image](./Images/Untitled_design-2.png)
