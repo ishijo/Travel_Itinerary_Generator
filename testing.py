@@ -3,6 +3,21 @@ import pickle
 from poi_trialmerged import FINAL
 import pandas as pd
 import streamlit.components.v1 as components
+import psycopg2
+import folium
+import streamlit_folium 
+from streamlit_folium import folium_static
+
+
+# Initialize connection.
+# Uses st.experimental_singleton to only run once.
+# @st.experimental_singleton
+# def init_connection():
+#     return psycopg2.connect(**st.secrets["postgres"])
+
+# conn = init_connection()
+
+
 
 #importlib.import_module('FINAL')
 st.image('./Images/Untitled_design-2.png')
@@ -50,9 +65,9 @@ def output_main(Type,Duration,Budget,TYPE,Ques):
    
     #prediction=classifier.predict([[variance,skewness,curtosis,entropy]])
     #print(load_lol)
-    output,info = FINAL(Type,Duration,Budget,TYPE,Ques) 
+    output,info, map = FINAL(Type,Duration,Budget,TYPE,Ques) 
     print(output)
-    return [output,info]
+    return [output,info,map]
 
 
 def main():
@@ -115,6 +130,7 @@ def main():
         #print(RESULT)
         Output = RESULT[0]
         Info = RESULT[1]
+        Map = RESULT[2]
 
         st.markdown(' # Your Inputs')
                 
@@ -127,7 +143,10 @@ def main():
         st.markdown(' # Your Itinerary')
         for i in range(0,len(Output)):
           st.write('{}'.format(Output[i])) ## 
-    
+
+        st_map = folium_static(Map)
+        st.markdown(st_map)
+        
     if st.button("Store data"):
 
       Before_df = pd.read_csv("MAIN_Data.csv")

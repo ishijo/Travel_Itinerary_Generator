@@ -877,14 +877,14 @@ def FINAL(Type,Duration,Budget,TYPE,Ques):
   big_la
 
   #user_info()
-  #our_map = make_route(all=True)
+  our_map = make_route(all=True)
       
   # Deploying
   #pickle_out = open("lol.pkl","wb")
   #pickle.dump(big_la, pickle_out)
   #pickle_out.close()
   print('returning..')
-  return [big_la,user_info()]
+  return [big_la,user_info(),our_map]
 
 #la = FINAL(['Spiritual'],8,4000,'Family','n')
 #print(la)

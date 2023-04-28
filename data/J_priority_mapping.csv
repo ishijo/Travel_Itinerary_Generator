@@ -1,0 +1,74 @@
+PID,POI,Shows and Concerts,Scenic,Local Experiences,Religious,History and Culture,Museum,Food and Drinks,Adventure,Shopping
+POI1,AMBER PALACE,0,2,3,0,5,4,0,1,0
+POI2,CITY PALACE Jaipur,0,2,3,0,5,4,1,0,0
+POI3,JANTAR MANTAR JAIPUR,0,0,0,0,5,4,0,0,0
+POI4,HAWA MAHAL,0,2,3,0,5,0,0,0,0
+POI5,ALBERT HALL MUSEUM (CENTRAL MUSEUM),0,3,0,0,4,5,0,0,0
+POI6,NAHARGARH FORT,0,3,2,0,4,5,1,0,0
+POI7,BIRLA TEMPLE jaipur,0,3,4,5,0,0,0,0,0
+POI8,JAL MAHAL,0,4,3,0,5,0,0,2,0
+POI9,King Edward Memorial,0,0,3,0,5,4,1,0,0
+POI10,SISODIA RANI PALACE AND GARDEN,0,5,0,0,4,0,0,0,0
+POI11,VIDYADHAR GARDEN,0,5,0,1,0,0,0,3,0
+POI12,CENTRAL PARK JAIPUR INDIA,0,5,0,2,0,0,0,0,0
+POI13,ANOKHI MUSEUM OF HAND PRINTING,0,3,0,0,4,5,0,0,0
+POI14,GOVIND DEVJI TEMPLE,0,0,4,5,0,0,0,0,0
+POI15,MOTI DOONGRI GANESH TEMPLE,0,0,4,5,0,0,0,0,0
+POI16,DIGAMBER JAIN MANDIR JAIPUR,0,0,4,5,0,0,0,0,0
+POI17,GALTAJI,0,0,3,5,4,0,0,0,0
+POI18,STATUE CIRCLE,0,5,0,0,2,0,0,0,0
+POI19,RAM NIWAS GARDEN,0,5,0,0,4,0,1,0,0
+POI20,ZOOLOGICAL GARDEN jaipur,0,5,0,0,0,0,1,4,0
+POI21,KANAK VRINDAVAN,0,5,0,1,0,0,0,4,0
+POI22,AMAR JAWAN JYOTI JAIPUR,0,2,4,0,5,0,0,0,0
+POI23,MAHARANI KI CHHATRI JAIPUR,0,0,3,1,5,0,0,0,0
+POI24,NAHARGARH BIOLOGICAL PARK,0,5,0,0,0,0,0,4,0
+POI25,JAWAHAR KALA KENDRA,5,2,4,0,0,0,0,0,0
+POI26,RAJ MANDIR,5,0,0,0,3,0,0,0,0
+POI27,SAMBHAR LAKE,0,5,0,0,0,0,0,4,0
+POI28,AKSHARDHAM TEMPLE JAIPUR,0,0,4,5,0,0,0,0,0
+POI29,Jagat Shiromani Temple,0,3,0,5,4,0,0,0,0
+POI30,Jawahar Circle,0,5,0,0,0,0,1,0,2
+POI31,Museum of Gem and Jewellery,0,0,0,0,2,5,3,0,0
+POI32,Jhalana Safari Park in Jaipur,0,4,0,0,0,0,0,5,0
+POI33,Masala Chowk,0,3,0,0,0,0,4,0,5
+POI34,Amrapali Museum,0,0,3,0,0,5,0,0,0
+POI35,Museum of Legacies jaipur india,0,0,3,0,0,5,0,0,0
+POI36,Chokhi Dhani,0,4,5,0,0,0,3,0,0
+POI37,Elefantastic Elephant Farm,0,4,0,1,0,0,0,5,0
+POI38,Panna Meena ki Baoli,0,5,0,0,4,0,0,0,0
+POI39,Johari Bazaar,0,0,0,1,0,0,5,0,4
+POI40,Bapu Bazaar,0,0,0,1,0,0,5,0,4
+POI41,World Trade Park,0,0,0,0,0,0,0,0,5
+POI42,Garh Ganesh Mandir,0,4,0,5,0,0,0,3,0
+POI43,Mukesh Art gallery,0,0,3,0,0,5,0,0,0
+POI44,Angel resort and Amusement Waterpark,0,0,0,0,0,0,0,5,0
+POI45,B M Birla Auditorium,5,2,4,0,0,0,0,0,0
+POI46,"Khole Ke Hanuman JI Temple, Jaipur",0,4,0,5,0,0,0,1,0
+POI47,Skyfut,0,0,0,0,0,0,0,5,4
+POI48,Gatore Ki Chhatri Jaipur,0,4,0,0,5,0,0,0,0
+POI49,Rusirani Village jaipur,0,1,5,0,4,0,0,2,0
+POI50,Deer Park Jaipur,0,5,0,0,0,0,0,4,0
+POI51,Ramgarh Lake,0,5,0,0,0,0,0,4,0
+POI52,Museum of Legacies jaipur,0,0,3,0,0,5,0,0,0
+POI53,St Andrews Church Jaipur,0,0,0,5,0,0,0,0,0
+POI54,Jamva Ramgarh Wildlife Sanctuary,0,3,0,0,0,0,0,5,0
+POI55,Jwala mata Mandir jaipur,0,0,0,5,0,0,0,0,0
+POI56,Jamway Mata Mandir,0,0,0,5,0,0,0,0,0
+POI57,Laxmi Narayan Temple Jaipur,0,4,0,5,0,0,0,0,0
+POI58,Dargah Burhanuddin Baba Jaipur,0,1,0,5,0,0,0,0,0
+POI59,Kulish Smiriti Van jaipur,0,5,0,1,0,0,0,2,0
+POI60,Dhamma Thali Vipassana Meditation Centre,0,0,0,5,0,0,0,0,1
+POI61,Chandlai Lake,0,5,0,3,0,0,0,0,0
+POI62,Shri Gopinath Temple Jaipur,0,1,0,5,0,0,0,0,0
+POI63,Dolls Museum,0,0,2,1,0,5,0,0,0
+POI64,Peacock Garden Jaipur,0,5,0,0,0,0,0,0,3
+POI65,Elements Shopping Jaipur,4,0,0,0,0,0,0,0,5
+POI66,Crystal mall Jaipur,3,0,0,0,0,0,0,0,5
+POI67,CENTRAL PARK JAIPUR,0,5,0,2,0,0,0,0,0
+POI68,Handicraft Haveli Jaipur,0,0,5,0,0,0,0,0,0
+POI69,Sunrise Dream World Amusement Park,0,0,0,0,0,0,0,5,0
+POI70,Brethren Church jaipur,2,0,0,5,0,0,0,0,0
+POI71,MI Road,0,0,0,0,0,0,4,0,5
+POI72,Bhangarh,0,4,0,3,0,0,0,5,0
+POI73,Sky Waltz Balloon Safari,0,4,1,0,0,0,0,5,0
