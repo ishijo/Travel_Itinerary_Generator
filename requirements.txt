@@ -1,4 +1,4 @@
-streamlit==0.82.0
+streamlit==1.10.0
 numpy==1.19.5
 plotly==4.9.0
 folium==0.12.1
