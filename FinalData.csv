@@ -1,2 +1,4 @@
 ,Type,Duration,Budget,TYPE,Ques
-0,['Spiritual'],11,96700,Family,n
+0,['Adventure and Outdoors'],3,50200,Family,y
+1,"['Adventure and Outdoors', 'Spiritual']",3,50200,Family,y
+2,"['Adventure and Outdoors', 'Spiritual', 'Relaxing']",9,50200,Family,y

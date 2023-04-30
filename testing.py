@@ -5,8 +5,13 @@ import pandas as pd
 import streamlit.components.v1 as components
 import psycopg2
 import folium
-import streamlit_folium 
-from streamlit_folium import folium_static
+# import configparser
+
+# config = configparser.ConfigParser()
+# config.read('.streamlit/config.toml')
+
+#import streamlit_folium 
+#from streamlit_folium import folium_static
 
 
 # Initialize connection.
@@ -130,7 +135,7 @@ def main():
         #print(RESULT)
         Output = RESULT[0]
         Info = RESULT[1]
-        Map = RESULT[2]
+        #Map = RESULT[2]
 
         st.markdown(' # Your Inputs')
                 
@@ -144,8 +149,8 @@ def main():
         for i in range(0,len(Output)):
           st.write('{}'.format(Output[i])) ## 
 
-        st_map = folium_static(Map)
-        st.markdown(st_map)
+        #st_map = folium_static(Map)
+        #st.markdown(st_map)
         
     if st.button("Store data"):
 
