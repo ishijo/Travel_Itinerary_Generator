@@ -105,10 +105,10 @@ def main():
     Budget = st.slider("Budget",min_value=200,max_value=150000,step=500)
     Budget = int(Budget)
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     
     TYPE = col1.selectbox("Who are you travelling with?",lis2) ## already filled change
-    Ques = col2.text_input("Is covering maximum places a priority (y/n)?","")
+    Ques = col2.radio("Is covering maximum places a priority?",['Yes',"No"])
 
     #Condition-Error
     cutoff = Budget/Duration

@@ -1,9 +1,4 @@
 ,Type,Duration,Budget,TYPE,Ques
-0,['Adventure and Outdoors'],4,68200,Family,y
-1,['Adventure and Outdoors'],4,68200,Family,y
-2,['Adventure and Outdoors'],9,62200,Family,n
-3,['Adventure and Outdoors'],5,41700,Family,y
-4,['Adventure and Outdoors'],5,41700,Family,y
-5,['Adventure and Outdoors'],5,41700,Family,y
-6,['Adventure and Outdoors'],5,41700,Family,y
-7,"['Adventure and Outdoors', 'Spiritual']",7,59700,Family,n
+0,['Adventure and Outdoors'],6,83700,Family,y
+1,['Spiritual'],4,57200,Family,y
+2,"['Adventure and Outdoors', 'City Life']",5,64700,Family,Yes
