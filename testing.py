@@ -8,8 +8,29 @@ import folium
 
 streamlit_style = """
 			<style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
-</style>
+			  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+
+			  .hotel-bold {
+			    font-weight: 600;
+			  }
+
+			  .hotel-font {
+			    font-size: 20px;
+          background-color: #e6f9ff;
+			  }
+
+			  label {
+			    font-size: 28px;
+			  }
+
+			  p{
+			    font-size: 18px;
+			  }
+        li{
+          font-size: 18px;
+        }			  
+			  
+			</style>
 			"""
 st.markdown(streamlit_style, unsafe_allow_html=True)
 
@@ -31,8 +52,8 @@ from streamlit_folium import folium_static
 
 
 #importlib.import_module('FINAL')
+st.markdown('Please find the GitHub Repository for this project [here](https://github.com/ishijo/Travel_Itinerary_Generator).')
 st.image('./Images/Untitled_design-2.png')
-
 st.title('Personalised Travel Recommendation and Planner')
 
 pickle_in = open("lol.pkl","rb")
@@ -143,20 +164,30 @@ def main():
         Info = RESULT[1]
         Map = RESULT[2]
 
-        st.markdown(' # Your Inputs')
-                
-        for i in range(0,len(Info)):
+        st.subheader('Your Inputs')
+        st.write('{}'.format(Info[0]))
+        col3, col4 = st.columns(2)
+        len(Info)
+        for i in range(1,len(Info)-5):
             try: 
-                st.write('{}'.format(Info[i]))
+                col3.write('{}'.format(Info[i]))
             except:
                 continue
-
-        st.markdown(' # Your Itinerary')
+        for i in range(4,len(Info)-2):
+            try: 
+                col4.write('{}'.format(Info[i]))
+            except:
+                continue
+        st.write('{}'.format(Info[-2]))
+        
+        st.header('Suggested Itinerary')
+        st.markdown('<p class="hotel-font"><span class="hotel-bold">Suggested Hotel/Accomodation:</span> {}<p>'.format(Info[-1]),unsafe_allow_html=True)
+        st.write(' ')
         for i in range(0,len(Output)):
           st.write('{}'.format(Output[i])) ## 
 
         st_map = folium_static(Map)
-        st.markdown(st_map)
+        #st.markdown(st_map)
         
     if st.button("Store data"):
 

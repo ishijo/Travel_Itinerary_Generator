@@ -117,11 +117,13 @@ def FINAL(Type,Duration,Budget,TYPE,Ques):
     type_print.append(str('Budget: '+ str(Budget)))
     type_print.append(str('No. of POIs: '+str(no_of_pois)))
     type_print.append(str('Type: '+TYPE))
-    type_print.append(str('Nearest hotel: '+nearest_hotel))
     if (Ques == 'y'):
       type_print.append(str('Covering maximum places is a priority.'))
     else:
       type_print.append(str('Covering maximum places is NOT a priority.'))
+      #type_print.append(str('Suggested Hotel/Accomodation: '+nearest_hotel))
+    type_print.append(str(nearest_hotel))
+    
     return type_print
 
   
@@ -853,22 +855,22 @@ def FINAL(Type,Duration,Budget,TYPE,Ques):
       if (no_of_slots == 1):
 
         if (j!=len(all_routes[i])-1):
-          la1 = all_routes[i][j]+' (Anytime after '+time+'and before'+endtime[0]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+') '
           print(la1)
           big_la.append(str(la1))
         else:
-          la1 = all_routes[i][j]+' (Anytime after '+time+'and before'+endtime[0]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+') '
           print(la1)
           big_la.append(str(la1))
 
       elif (no_of_slots == 2):
 
         if (j!=len(all_routes[i])-1):
-          la1 = all_routes[i][j]+' (Anytime after '+time+'and before'+endtime[0]+'and '+endtime[1]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+'and '+endtime[1]+') '
           print(la1)
           big_la.append(str(la1))
         else:
-          la1 = all_routes[i][j]+' (Anytime after '+time+'and before'+endtime[0]+'and '+endtime[1]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+'and '+endtime[1]+') '
           print(la1)
           big_la.append(str(la1))
           
