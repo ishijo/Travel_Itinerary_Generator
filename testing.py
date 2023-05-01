@@ -3,7 +3,7 @@ import pickle
 from poi_trialmerged import FINAL
 import pandas as pd
 import streamlit.components.v1 as components
-import psycopg2
+#import psycopg2
 import folium
 
 streamlit_style = """
