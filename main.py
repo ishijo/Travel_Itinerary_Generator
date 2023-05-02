@@ -131,7 +131,7 @@ def main():
     TYPE = col1.selectbox("Who are you travelling with?",lis2) ## already filled change
     Ques = col2.radio("Is covering maximum places a priority?",['Yes',"No"])
 
-    #Condition-Error
+    ## Condition-Error
     cutoff = Budget/Duration
 
     result=""
