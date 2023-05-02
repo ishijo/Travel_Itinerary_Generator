@@ -1,2 +1,7 @@
 ,Type,Duration,Budget,TYPE,Ques
-0,"['Adventure and Outdoors', 'Spiritual']",5,59700,Family,n
+0,['Cultural'],3,55700,Individual,No
+1,['Cultural'],3,55700,Individual,Yes
+2,['Cultural'],3,84700,Individual,Yes
+3,['Spiritual'],4,74700,Individual,No
+4,['Spiritual'],16,144700,Family,Yes
+5,"['Spiritual', 'Adventure and Outdoors']",6,81700,Individual,No

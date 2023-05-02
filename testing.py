@@ -152,7 +152,7 @@ def main():
                            "Budget": Budget, "TYPE": TYPE, "Ques": Ques})
         
         FINAL_DATA = pd.DataFrame(get_data()) #####
-        FINAL_DATA.to_csv('FinalData.csv') #####
+        FINAL_DATA.to_csv('data/FinalData.csv') #####
 
         Output = RESULT[0]
         Info = RESULT[1]
@@ -185,11 +185,11 @@ def main():
         
     # if st.button("Store data"):
 
-    #   Before_df = pd.read_csv("MAIN_Data.csv")
-    #   This_time_df = pd.read_csv('FinalData.csv')
+    #   Before_df = pd.read_csv("data/MAIN_Data.csv")
+    #   This_time_df = pd.read_csv('data/FinalData.csv')
 
     #   Before_df.append(This_time_df)
-    #   Before_df.to_csv("MAIN_Data.csv",index=False)
+    #   Before_df.to_csv("data/MAIN_Data.csv",index=False)
 
     
     
