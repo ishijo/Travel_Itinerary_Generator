@@ -20,7 +20,7 @@ streamlit_style = """
 			  }
 
 			  label.css-1p2iens.effi0qh3{
-			    font-size: 20px;
+			    font-size: 18px;
 			  }
 
 			  p{
@@ -32,6 +32,10 @@ streamlit_style = """
         #MainMenu{
         visibility: hidden;
         }	  
+        button.css-135zi6y.edgvbvh9{
+        font-size: 18px;
+        font-weight: 600;
+        }
 			  
 			</style>
 			"""
@@ -131,7 +135,7 @@ def main():
     cutoff = Budget/Duration
 
     result=""
-
+    st.write(' ')
     if st.button("What do you recommend?"):
 
         try:
