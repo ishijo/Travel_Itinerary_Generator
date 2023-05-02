@@ -60,7 +60,7 @@ from streamlit_folium import folium_static
 
 #importlib.import_module('FINAL')
 st.markdown('Please find the GitHub Repository for this project [here](https://github.com/ishijo/Travel_Itinerary_Generator).')
-st.image('./Images/Untitled_design-2.png')
+st.image('./data/Cover-Img.png')
 st.title('Personalised Travel Recommendation and Planner')
 
 pickle_in = open("lol.pkl","rb")
