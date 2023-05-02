@@ -121,12 +121,12 @@ def main():
     lis1 = ['Adventure and Outdoors','Spiritual','City Life', 'Cultural','Relaxing']
     lis2 = ['Family','Friends','Individual']
 
-    Type = st.multiselect("Enter vacation according to priority:",lis1)
+    Type = st.multiselect("Vacation type according to priority:",lis1)
 
-    Duration = st.slider("Duration",min_value=1,max_value=40)
+    Duration = st.slider("Duration (days)",min_value=1,max_value=40)
     Duration = int(Duration)
     
-    Budget = st.slider("Budget",min_value=200,max_value=150000,step=500)
+    Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
     Budget = int(Budget)
 
     col1, col2 = st.columns(2)
