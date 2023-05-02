@@ -106,13 +106,6 @@ def output_main(Type,Duration,Budget,TYPE,Ques):
 
 
 def main():
-    # html_temp = """
-    # <div style="background-color:tomato; padding:10px; border-radius: 10px; margin-top: 10px; margin-bottom: 40px">
-    #   <h2 style="color:white; text-align:center; font-weight: bold"> A more rewarding way to travel! </h2>
-    # </div>
-    # """
-    #st.markdown(html_temp,unsafe_allow_html=True)
-    #components.html("""<div style="height: 10px;></div>""")
 
     @st.cache(allow_output_mutation=True)
     def get_data():
@@ -154,15 +147,9 @@ def main():
         get_data().append({"Type": Type, "Duration": Duration,
                            "Budget": Budget, "TYPE": TYPE, "Ques": Ques})
         
-        FINAL_DATA = pd.DataFrame(get_data())
-        #FINAL_DATA.to_csv('FinalData.csv')
+        FINAL_DATA = pd.DataFrame(get_data()) #####
+        FINAL_DATA.to_csv('FinalData.csv') #####
 
-        
-        FINAL_DATA.to_csv('FinalData.csv')
-
-        #print(type(RESULT))
-        #print('')
-        #print(RESULT)
         Output = RESULT[0]
         Info = RESULT[1]
         Map = RESULT[2]
@@ -192,17 +179,14 @@ def main():
         st_map = folium_static(Map)
         #st.markdown(st_map)
         
-    if st.button("Store data"):
+    # if st.button("Store data"):
 
-      Before_df = pd.read_csv("MAIN_Data.csv")
-      This_time_df = pd.read_csv('FinalData.csv')
+    #   Before_df = pd.read_csv("MAIN_Data.csv")
+    #   This_time_df = pd.read_csv('FinalData.csv')
 
-      Before_df.append(This_time_df)
-      Before_df.to_csv("MAIN_Data.csv",index=False)
+    #   Before_df.append(This_time_df)
+    #   Before_df.to_csv("MAIN_Data.csv",index=False)
 
-      
-
-    
     
     
 if __name__=='__main__':
