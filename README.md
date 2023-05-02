@@ -1,5 +1,5 @@
 # Personalised Travel Recommender & Planner
-The current deployed version is being mended.
+### Visit the current deployed version [here](https://travel-itinerary-generator.streamlit.app/).
 
 ## Webscraping and Dataset definitions
 
