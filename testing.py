@@ -19,8 +19,8 @@ streamlit_style = """
           background-color: #e6f9ff;
 			  }
 
-			  label {
-			    font-size: 28px;
+			  label.css-1p2iens.effi0qh3{
+			    font-size: 20px;
 			  }
 
 			  p{
@@ -28,7 +28,10 @@ streamlit_style = """
 			  }
         li{
           font-size: 18px;
-        }			  
+        }		
+        #MainMenu{
+        visibility: hidden;
+        }	  
 			  
 			</style>
 			"""
@@ -144,7 +147,7 @@ def main():
           if(cutoff<260):
             st.subheader("Irrational. Try increasing your Budget or scaling down the Duration") # FORMAAT
           else:
-            st.subheader("Irrational. Please change your Inputs")
+            st.subheader("Irrational. Please check your Inputs")
           return
 
         

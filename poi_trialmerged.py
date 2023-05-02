@@ -866,11 +866,11 @@ def FINAL(Type,Duration,Budget,TYPE,Ques):
       elif (no_of_slots == 2):
 
         if (j!=len(all_routes[i])-1):
-          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+'and '+endtime[1]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+' and '+endtime[1]+') '
           print(la1)
           big_la.append(str(la1))
         else:
-          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+'and '+endtime[1]+') '
+          la1 = all_routes[i][j]+' (Anytime after '+time+' and before '+endtime[0]+' and '+endtime[1]+') '
           print(la1)
           big_la.append(str(la1))
           
